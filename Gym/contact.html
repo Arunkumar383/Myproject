@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Weight</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: black;
+            padding-top: 56px;
+        }
+        .contact-header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .contact-header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .contact-header p {
+            color: #6c757d;
+        }
+        .contact-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .map-container iframe {
+            border: 0;
+            border-radius: 8px;
+        }
+        footer {
+            background: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .social a {
+            color: #fff;
+            margin: 0 10px;
+        }
+        @media (max-width: 768px) {
+            .contact-header h1 {
+                font-size: 28px;
+            }
+            .contact-header p {
+                font-size: 14px;
+            }
+        }
+        @media (max-width: 576px) {
+            .contact-header h1 {
+                font-size: 24px;
+            }
+            .contact-header p {
+                font-size: 12px;
+            }
+            .map-container iframe {
+                height: 300px;
+            }
+            .contact-card {
+                padding: 15px;
+            }
+        }
+        .row1{
+    background: var(--bg-color);
+    border-radius: 27px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.logo{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">Light<span>Weight</span></a>
+        <div  class='bx bx-menu' id="menu-icon"></div>
+        <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+       <li><a href="service.html">Services</a></li> 
+       <li><a href="about.html">About Us</a></li>
+       <li><a href="price.html">Pricing</a></li> 
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">contact</a></li>
+        </ul>
+        <div class="top-btn">
+            <a href="contact.html" class="nav-btn">Join Us</a>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 >Build Your</h3>
+            <h1 >Dream Physique</h1>
+            <h3><span class="multiple-text">Bodybuilding</span></h3>
+            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est expedita sed ea esse quos iusto provident asperiores officiis ratione?</p>
+            <a href="#" class="btn">Join Us</a>
+        </div>
+            <div class="home-img" style="text-align: center">
+                <img src="img/young-fitness-man-studio-removebg-preview.png" alt="home image">
+            </div>
+       
+
+    </section>
+   
+   
+</head>
+<body>
+   
+
+
+    <!-- Contact Content -->
+    <section class="container mb-5" style="height: 300px;">
+        <div class="row" style="border: none;box-shadow: none;height: 300px;">
+            <!-- Contact Details -->
+            <div class="col-lg-6 mb-4" >
+                <div class="contact-card" style=" box-shadow: 0 0 5px var(--main-color);">
+                    <h2 class="h4" style="color: black;"><i class="fas fa-envelope"></i> Email</h2>
+                    <p style="color: black;">arunnkumarak383@gmail.com</p>
+                    <h2 class="h4" style="color: black;"><i class="fas fa-phone"></i> Mobile</h2>
+                    <p style="color: black;">+91 6382184993</p>
+                    <h2 class="h4" style="color: black;"><i class="fas fa-map-marker-alt"></i> Address</h2>
+                    <p style="color: black;">Maduvankarai, Guindy, Chennai</p>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="col-lg-6 mb-4">
+                <div class="map-container" style=" box-shadow: 0 0 5px var(--main-color);">
+                    <iframe src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=Narasingapuram%20street,Maduvankarai,Guindy,Chennai,+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Image -->
+       
+    </section>
+
+    <!-- Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <p class="copyright">
+            &copy;&nbsp;Light Weight 2024 - All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
